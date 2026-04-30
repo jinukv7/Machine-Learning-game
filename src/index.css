@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0F172A] text-[#F8FAFC] font-sans antialiased overflow-hidden;
+  }
+}
+
+.bg-dot-pattern {
+  background-image: radial-gradient(#ffffff20 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
